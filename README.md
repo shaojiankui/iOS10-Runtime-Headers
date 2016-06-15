@@ -11,13 +11,19 @@
 4.终端使用 wget -r http://192.168.1.102:10000/tree/ 即可下载到本地
 
 因为文件较多,偶尔会造成app闪退,为了下全每个文件夹设置一个重试次数比如50次
+
 wget -r -t50 http://192.168.1.102:10000/tree/
+
 当APP闪退的时候,重试50次期间再次运行APP即可继续下载
 
 5.等待所有文件下载完毕即可
+
 FINISHED --2016-06-14 20:22:32--
+
 Total wall clock time: 27m 54s
+
 Downloaded: 42401 files, 444M in 3m 18s (2.24 MB/s)
+
 Jakey-Pro:iOS10-Runtime-Headers jakey$ 
 
 ##安装wget
